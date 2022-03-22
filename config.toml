@@ -24,8 +24,8 @@ theme = "hugo-devresume-theme"
 
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
-        url = "mailto:#"
-        text = "dvilaverde@gmail.com"
+        url = "mailto:silos.quarrel_0o@icloud.com"
+        text = "dvilaverde"
         [[params.contact.list]]
         icon = "fas fa-globe"
         url = "#"
