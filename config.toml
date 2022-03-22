@@ -1,0 +1,260 @@
+# Page settings
+
+baseURL = "https://dvilaverde.github.io/"
+languageCode = "en"
+title = "David Vilaverde"
+theme = "hugo-devresume-theme"
+
+[params]
+    author = "David Vilaverde"
+    description = "David Vilaverde Software Architect Resume"
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+    [params.profile]
+        enable = true
+        name = "David Vilaverde"
+        tagline = "Software Architect"
+        avatar = "profile.png"
+
+    [params.contact]
+        enable = true
+        location = "Connecticut"
+
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "dvilaverde@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "https://dvilaverde.github.io"
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "Java/J2EE"
+        [[params.skills.list.items]]
+        details = "Docker, Kubernetes, Helm"
+        [[params.skills.list.items]]
+        details = "Service Oriented Architecture"
+        [[params.skills.list.items]]
+        details = "REST APIs (JAX-RS), OpenAPI"
+        [[params.skills.list.items]]
+        details = "XML, XPATH, XQuery"
+        [[params.skills.list.items]]
+        details = "NodeJS"
+        [[params.skills.list.items]]
+        details = "TypeScript, JavaScript"
+        [[params.skills.list.items]]
+        details = "Tomcat, SpringBoot"
+        [[params.skills.list.items]]
+        details = "BPEL 2.0 Orchestration"
+        [[params.skills.list.items]]
+        details = "Web Services (JAX-WS, JAXB), WSDL"
+        [[params.skills.list.items]]
+        details = "JMS, AMQP"
+        [[params.skills.list.items]]
+        details = "Apache Camel"
+        [[params.skills.list.items]]
+        details = "Application Performance Monitoring"
+        [[params.skills.list.items]]
+        details = "SQL, MySQL"
+        [[params.skills.list.items]]
+        details = "Git, Perforce, SVN, CVS"
+        [[params.skills.list.items]]
+        details = "Maven, ANT, Jenkins"
+        [[params.skills.list.items]]
+        details = "Eclipse, IntelliJ"
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+        [[params.skills.list.items]]
+        details = "Good time management"
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Bsc in Management Information Systems"
+        university = "University of Connecticut"
+        location = "Storrs, CT"
+        dates = "1995 - 1999"
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+
+    [params.languages]
+        enable = false
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Native"
+        
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Aviation"
+
+    [params.summary]
+        enable = true
+        text = "A talented architect and software engineer with extensive experience bringing innovation and technical leadership to both enterprise and cloud-based software solutions. Has spent 5+ years migrating and scaling an on-premises enterprise solution into a cloud-native, market leading, API micro-service orchestration platform product supporting over 1200 tenants across AWS, Azure, and GCP. Over 20 years’ experience, with increasing levels of responsibility, including taking requirements to design, iteration identification and planning, mentoring, application tuning, and the full lifecycle of software design."
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Software Architect"
+        dates = "01/2022 - Present"
+
+        [params.experience.list.company]
+        name = "Adobe"
+        website = "https://www.adobe.com"
+
+        [[params.experience.list.items]]
+        details = "Refactored and implemented data collection services from a proprietary message format to a protobuf/gRpc based design"
+        [[params.experience.list.items]]
+        details = "Implemented a Quality of Service/SLA based fail-over mechanism for a high-volume data forwarding service"
+
+        [[params.experience.list]]
+        title = "Senior Development Architect"
+        dates = "04/2018 - Present"
+        
+        [params.experience.list.company]
+        name = "Informatica"
+        website = "https://www.informatica.com"
+
+        details = "Responsible for all aspects of core BPEL engine product development and architecture, with a focus on stability and performance. In addition to hands on development, I provide technical leadership and direction to a team of over 20 engineers across multiple product teams and geographies."
+        [[params.experience.list.items]]
+        details = "Improved scaling, performance, and product reliability, resulting in a 4x increase in throughput and 20% decrease in support cases"
+        [[params.experience.list.items]]
+        details = "Increased build stability and improved quality of production releases by driving adoption of best practices in CI/CD and automation"
+        [[params.experience.list.items]]
+        details = "Migrated over 400 tenants from old architecture into new architecture deployed across multiple AWS regions"
+        [[params.experience.list.items]]
+        details = "Created the architecture for a Kubernetes deployment to reduce costs in operations and resource consumption"
+        [[params.experience.list.items]]
+        details = "Created and delivered a proof-of-concept for a new serverless orchestration runtime allowing for significant expansion of product scalability and reliability"
+
+        [[params.experience.list]]
+        title = "Principal Engineer"
+        dates = "05/2012 - 04/2018"
+        [params.experience.list.company]
+        name = "Active Endpoints (acquired in 2013)"
+        
+        [[params.experience.list.items]]
+        details = "Implemented Informatica's core Application Integration runtime a product that has become Informatica’s second most consumed cloud service"
+        [[params.experience.list.items]]
+        details = "Increased product stability and decreased Mean Time to Identify and Resolve production issues by introducing application monitoring and observability as part of application design, and driving implementation and adoption of telemetry collections platform, specifically Prometheus and Grafana"
+        [[params.experience.list.items]]
+        details = "Simplified the end-user experience by creating a no code mechanism for building event-driven applications using Apache Camel"
+        [[params.experience.list.items]]
+        details = "Reduced development maintenance costs by converting over 90 Java projects from custom Apache Ant build process to Maven"
+
+        [[params.experience.list]]
+        title = "Independent Consultant"
+        dates = "06/2016 - 12/2017"
+        [params.experience.list.company]
+        name = "Edge2Web"
+        website = "https://edge2web.com/"
+
+        [[params.experience.list.items]]
+        details = "Implemented Flow Server, a JavaScript/TypeScript based orchestration engine capable of executing in NodeJS or a web browser"
+        [[params.experience.list.items]]
+        details = "Created a mechanism for cloud processes to access on premises data sources using OData V4 and Swagger"
+        [[params.experience.list.items]]
+        details = "Improved web application load time by 5x by integrating Webpack into the build process"
+
+        [[params.experience.list]]
+        title = "Senior Application Developer"
+        dates = "11/2010 - 05/2012"
+        [params.experience.list.company]
+        name = "Yale University"
+        website = "https://yale.edu/"
+
+        [[params.experience.list.items]]
+        details = "Developed the Yale Stock Trading Game a multi-user real time trading application"
+        [[params.experience.list.items]]
+        details = "Implemented core components of an access management and account provisioning solution"
+        [[params.experience.list.items]]
+        details = "Exposed legacy systems as SOAP/REST based APIs"
+
+        [[params.experience.list]]
+        title = "Software Engineer"
+        dates = "12/2007 - 11/2010"
+        [params.experience.list.company]
+        name = "Active Endpoints"
+
+        [[params.experience.list.items]]
+        details = "Java backend development of BPEL runtime engine with SQL persistence"
+        [[params.experience.list.items]]
+        details = "Developed Service Component Architecture (SCA) based deployments resulting in a decrease in customer support issues"
+        [[params.experience.list.items]]
+        details = "Eclipse RCP plugin development for BPEL development tooling"
+
+        [[params.experience.list]]
+        title = "Solutions Architect"
+        dates = "09/2007 - 12/2007"
+        [params.experience.list.company]
+        name = "Pilotfish Technology"
+        website = "https://www.pilotfishtechnology.com/"
+
+        [[params.experience.list]]
+        title = "Senior Consultant"
+        dates = "05/2006 - 09/2007"
+        [params.experience.list.company]
+        name = "Software AG"
+        website = "https://www.softwareag.com/en_corporate/platform/integration-apis/webmethods-integration.html"
+        
+        [[params.experience.list]]
+        title = "Business Applications System Developer"
+        dates = "06/1999 - 05/2006"
+        [params.experience.list.company]
+        name = "Northeast Utilities"
+
+    [params.projects]
+        enable = false
+
+        [[params.projects.list]]
+        title = "Project Lorem Ipsum"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Aviation"
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/dvilaverde"
+        title = "dvilaverde"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/dvilaverde"
+        title = "dvilaverde"
+
+    [params.footer]
+        copyright = "David Vilaverde"
