@@ -71,16 +71,16 @@ theme = "hugo-devresume-theme"
         [[params.skills.list.items]]
         details = "Eclipse, IntelliJ"
 
-        [[params.skills.list]]
-        title = "Professional"
-        [[params.skills.list.items]]
-        details = "Effective communication"
-        [[params.skills.list.items]]
-        details = "Team player"
-        [[params.skills.list.items]]
-        details = "Strong problem solver"
-        [[params.skills.list.items]]
-        details = "Good time management"
+        # [[params.skills.list]]
+        # title = "Professional"
+        # [[params.skills.list.items]]
+        # details = "Effective communication"
+        # [[params.skills.list.items]]
+        # details = "Team player"
+        # [[params.skills.list.items]]
+        # details = "Strong problem solver"
+        # [[params.skills.list.items]]
+        # details = "Good time management"
 
     [params.education]
         enable = true
@@ -240,7 +240,7 @@ theme = "hugo-devresume-theme"
 
 
     [params.information]
-        enable = true
+        enable = false
 
         [[params.information.list]]
         title = "Interests"
