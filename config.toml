@@ -28,7 +28,7 @@ theme = "hugo-devresume-theme"
         text = "dvilaverde"
         [[params.contact.list]]
         icon = "fas fa-globe"
-        url = "#"
+        url = "https://github.com/dvilaverde"
         text = "https://github.com/dvilaverde"
 
     [params.skills]
