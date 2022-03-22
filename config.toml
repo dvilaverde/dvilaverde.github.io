@@ -132,15 +132,16 @@ theme = "hugo-devresume-theme"
         [[params.experience.list.items]]
         details = "Implemented a Quality of Service/SLA based fail-over mechanism for a high-volume data forwarding service"
 
+
         [[params.experience.list]]
         title = "Senior Development Architect"
-        dates = "04/2018 - Present"
+        dates = "04/2018 - 01/2022"
+        details = "Responsible for all aspects of core BPEL engine product development and architecture, with a focus on stability and performance. In addition to hands on development, I provide technical leadership and direction to a team of over 20 engineers across multiple product teams and geographies."        
         
         [params.experience.list.company]
         name = "Informatica"
         website = "https://www.informatica.com"
 
-        details = "Responsible for all aspects of core BPEL engine product development and architecture, with a focus on stability and performance. In addition to hands on development, I provide technical leadership and direction to a team of over 20 engineers across multiple product teams and geographies."
         [[params.experience.list.items]]
         details = "Improved scaling, performance, and product reliability, resulting in a 4x increase in throughput and 20% decrease in support cases"
         [[params.experience.list.items]]
@@ -155,8 +156,9 @@ theme = "hugo-devresume-theme"
         [[params.experience.list]]
         title = "Principal Engineer"
         dates = "05/2012 - 04/2018"
+
         [params.experience.list.company]
-        name = "Active Endpoints (acquired in 2013)"
+        name = "Active Endpoints (acquired 2013)"
         
         [[params.experience.list.items]]
         details = "Implemented Informatica's core Application Integration runtime a product that has become Informatica’s second most consumed cloud service"
