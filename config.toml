@@ -89,7 +89,6 @@ theme = "hugo-devresume-theme"
         degree = "Bsc in Management Information Systems"
         university = "University of Connecticut"
         location = "Storrs, CT"
-        dates = "1995 - 1999"
 
     [params.awards]
         enable = false

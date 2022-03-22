@@ -8,8 +8,12 @@
                                     <li class="mb-3">
                                         <div class="resume-degree font-weight-bold">{{ .degree }}</div>
                                         <div class="resume-degree-org text-muted">{{ .university }}</div>
+                                        {{ if .location }}
                                         <div class="resume-degree-location text-muted">{{ .location }}</div>
+                                        {{ end }}
+                                        {{ if .dates }}
                                         <div class="resume-degree-time text-muted">{{ .dates }}</div>
+                                        {{ end }}
                                     </li>
                                     {{ end }}
                                 </ul>
