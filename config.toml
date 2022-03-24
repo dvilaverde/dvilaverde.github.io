@@ -29,13 +29,13 @@ theme = "hugo-devresume-theme"
         location = "Connecticut"
 
         [[params.contact.list]]
-        icon = "fas fa-envelope-square"
+        icon = "fas fa-at"
         url = "mailto:silos.quarrel_0o@icloud.com"
-        text = "dvilaverde"
+        text = "Email"
         [[params.contact.list]]
-        icon = "fas fa-globe"
-        url = "https://github.com/dvilaverde"
-        text = "https://github.com/dvilaverde"
+        icon = "fab fa-linkedin-in"
+        url = "https://www.linkedin.com/in/dvilaverde/"
+        text = "dvilaverde"
 
     [params.skills]
         enable = true
@@ -116,6 +116,8 @@ theme = "hugo-devresume-theme"
 
         [[params.interests.list]]
         name = "Aviation"
+        [[params.interests.list]]
+        name = "Travel"
 
     [params.summary]
         enable = true
@@ -164,6 +166,7 @@ theme = "hugo-devresume-theme"
 
         [params.experience.list.company]
         name = "Active Endpoints (acquired 2013)"
+        website = "https://active-endpoints.com/"
         
         [[params.experience.list.items]]
         details = "Implemented Informatica's core Application Integration runtime a product that has become Informatica’s second most consumed cloud service"
@@ -207,6 +210,7 @@ theme = "hugo-devresume-theme"
         dates = "12/2007 - 11/2010"
         [params.experience.list.company]
         name = "Active Endpoints"
+        website = "https://active-endpoints.com/"
 
         [[params.experience.list.items]]
         details = "Java backend development of BPEL runtime engine with SQL persistence"
@@ -234,6 +238,7 @@ theme = "hugo-devresume-theme"
         dates = "06/1999 - 05/2006"
         [params.experience.list.company]
         name = "Northeast Utilities"
+        website = "https://www.eversource.com/"
 
     [params.projects]
         enable = false
@@ -255,11 +260,11 @@ theme = "hugo-devresume-theme"
         enable = true
 
         [[params.social.list]]
-        icon = "fab fa-github-square"
+        icon = "fab fa-github"
         url = "//github.com/dvilaverde"
         title = "dvilaverde"
         [[params.social.list]]
-        icon = "fab fa-linkedin"
+        icon = "fab fa-linkedin-in"
         url = "//linkedin.com/in/dvilaverde"
         title = "dvilaverde"
 
