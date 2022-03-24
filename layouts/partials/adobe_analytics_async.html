@@ -1,5 +1,7 @@
-
-<!--
-    TODO: Add analytics
-<script async src="https://"></script>
--->
+{{ with .Site.Params.analytics.adobe }}
+{{ if .async }}
+<script src="{{ .embedUrl }}" async></script>
+{{ else }}
+<script src="{{ .embedUrl }}"></script>
+{{ end }}
+{{ end }}

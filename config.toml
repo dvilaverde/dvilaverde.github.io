@@ -12,6 +12,12 @@ theme = "hugo-devresume-theme"
     primaryColor = "#54B689"
     textPrimaryColor = "#292929"
 
+    [params.analytics]
+        [params.analytics.adobe]
+            async = true
+            embedUrl = "https://assets.adobedtm.com/09e3b508d915/fae90bc99203/launch-c88ba46c43e8.min.js"
+
+
     [params.profile]
         enable = true
         name = "David Vilaverde"
