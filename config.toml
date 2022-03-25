@@ -95,6 +95,7 @@ theme = "hugo-devresume-theme"
         degree = "Bsc in Management Information Systems"
         university = "University of Connecticut"
         location = "Storrs, CT"
+        website = "https://www.business.uconn.edu/"
 
     [params.awards]
         enable = false
