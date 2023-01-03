@@ -1,7 +1,9 @@
-{{ with .Site.Params.analytics.adobe }}
-{{ if .async }}
+{{- with .Site.Params.analytics.adobe -}}
+{{- if .enabled -}}
+{{- if .async -}}
 <script src="{{ .embedUrl }}" async></script>
 {{ else }}
 <script src="{{ .embedUrl }}"></script>
-{{ end }}
-{{ end }}
+{{- end -}}
+{{- end -}}
+{{- end -}}
