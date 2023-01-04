@@ -22,7 +22,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify
+        run: env HUGO_PARAMS_ANALYTICS_ADOBE_EMBEDURL="$HUGO_PARAMS_ANALYTICS_ADOBE_EMBEDURL" hugo --minify
         env:
           HUGO_PARAMS_ANALYTICS_ADOBE_EMBEDURL: ${{ secrets.ADOBEEMBEDURL }}
 
